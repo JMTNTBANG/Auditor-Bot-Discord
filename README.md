@@ -13,6 +13,7 @@ Have the following installed on your system:
 Using **[Poetry](https://python-poetry.org/docs/#installation)** (or manually), please install the following packages using `poetry install`: 
 
 1. **[discord.py](https://pypi.org/project/discord.py/)**
+2. **[python-dotenv](https://pypi.org/project/python-dotenv/)**
 
 ## Configuration
 
