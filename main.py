@@ -14,6 +14,11 @@ if token is None:
     print("Please Add Discord Bot Token in .env")
     exit(1)
 
+# Checks for config file
+if "config.json" not in os.listdir("./"):
+    with open("./config.json", "w") as update:
+        update.write("{\n\n}")
+
 # Bot Variables
 intents = discord.Intents.default()
 intents.members = True
