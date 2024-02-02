@@ -1,0 +1,23 @@
+{
+  "name": "auditor-bot-discord",
+  "version": "1.0.0",
+  "description": "An Auditor Bot for Discord created in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "node src/index.js",
+    "reload-commands": "node src/reload-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMTNTBANG/Auditor-Bot-Discord.git"
+  },
+  "author": "JMTNTBANG",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JMTNTBANG/Auditor-Bot-Discord/issues"
+  },
+  "homepage": "https://github.com/JMTNTBANG/Auditor-Bot-Discord#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
